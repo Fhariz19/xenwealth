@@ -1,0 +1,210 @@
+.career {
+  background: #ffffff;
+}
+
+/* HERO */
+.career-hero {
+  background: linear-gradient(90deg, #041c4a, #083b8a);
+  color: #ffffff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.career-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.career-hero p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* SECTION */
+.career-section {
+  padding: 5rem 0;
+}
+
+/* ROW LAYOUT */
+.career-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.career-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.career-media,
+.career-text {
+  flex: 1;
+}
+
+.career-media {
+  display: flex;
+  justify-content: center;
+}
+
+.career-media img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Portrait video */
+.career-media video {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 9 / 16;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.career-text {
+  max-width: 520px;
+}
+
+.career-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #041c4a;
+}
+
+.career-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+/* LIFE SECTION */
+.career-life {
+  background: linear-gradient(180deg, #f8fafc, #eef2f7);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.career-life h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #041c4a;
+}
+
+.career-life ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.career-life li {
+  background: #ffffff;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.career-life li:hover {
+  transform: translateY(-4px);
+}
+
+/* WHO WE ARE LOOKING FOR */
+.career-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.career-columns > div {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.career-columns > div:hover {
+  transform: translateY(-6px);
+}
+
+.career-columns h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #041c4a;
+}
+
+.career-columns ul {
+  list-style: disc;
+  padding-left: 1.3rem;
+  margin-top: 1rem;
+}
+
+.career-columns li {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.career-list {
+  list-style: disc;
+  padding-left: 1.3rem;
+  margin-top: 1rem;
+}
+
+.career-list li {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* APPLY */
+.career-apply {
+  background: #041c4a;
+  color: #ffffff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.career-apply h2 {
+  font-size: 2rem;
+}
+
+.career-apply p {
+  margin: 1rem 0 2rem;
+  opacity: 0.9;
+}
+
+/* FADE IN */
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .career-row,
+  .career-row.reverse {
+    flex-direction: column;
+  }
+
+  .career-columns {
+    grid-template-columns: 1fr;
+  }
+}

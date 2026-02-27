@@ -1,0 +1,71 @@
+/* HERO */
+.about-hero {
+  background: #1a1363;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  color: #ffc800;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.about-hero img {
+  width: 85%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* DESCRIPTION */
+.about-desc {
+  padding: 40px 15%;
+  text-align: center;
+  font-size: 1.05rem;
+  color: #1a237e;
+  font-weight: 600;
+}
+
+/* VISION | MISSION */
+.vm-section {
+  background: #e0e0e0;
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.vm-section h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.vm-section span {
+  cursor: pointer;
+}
+
+.vm-section .active {
+  text-decoration: underline;
+}
+
+/* GRID */
+.vm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.vm-card img {
+  width: 100%;
+  max-width: 260px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.vm-card h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: underline;
+}

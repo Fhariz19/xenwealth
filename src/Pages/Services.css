@@ -1,0 +1,52 @@
+.services-section {
+  padding: 90px 20px;
+  background: #003e73;
+}
+
+.services-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.service-card {
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.service-card h3 {
+  margin-bottom: 18px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* Dark card */
+.service-card.dark {
+  background: #1f5f95;
+  color: #ffffff;
+}
+
+.service-card.dark h3 {
+  color: #ffffff;
+}
+
+/* Light card */
+.service-card.light {
+  background: #dce9f7;
+  color: #000000;
+}
+
+.service-card.light h3 {
+  color: #000000;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
