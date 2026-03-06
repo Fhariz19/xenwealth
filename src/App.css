@@ -143,6 +143,11 @@
   gap: 60px;
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+}
+
+.hero-inner > div {
+  flex: 1;
 }
 
 .hero h1 {
@@ -162,12 +167,13 @@
 }
 
 .featured-service {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.25);
   padding: 30px;
   border-radius: 16px;
-  max-width: 380px;
   backdrop-filter: blur(6px);
+  max-width: 380px;
+  width: 100%;
 }
 
 .featured-service h3 {
