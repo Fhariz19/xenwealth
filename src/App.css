@@ -150,6 +150,10 @@
   margin-bottom: 16px;
 }
 
+.hero-inner {
+  flex-wrap: wrap;
+}
+
 .lead {
   max-width: 600px;
   margin-bottom: 24px;
