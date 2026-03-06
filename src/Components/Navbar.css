@@ -45,3 +45,23 @@
 .nav-links a:hover {
   opacity: 0.85;
 }
+
+@media (max-width: 768px) {
+
+  .nav-inner {
+    padding: 0 1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .nav-links a {
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+
+}
