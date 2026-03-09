@@ -1,27 +1,34 @@
-import React from "react";
-import "./Navbar.css";
+import { useState } from "react";
+import "./navbar.css";
 
-export default function Navbar() {
+function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header className="navbar">
-      <div className="container nav-inner">
-        
-        {/* TEXT LOGO HOME BUTTON */}
-        <a href="/" className="logo-text">
-          XENWEALTH
-        </a>
+    <nav className="navbar">
+      <div className="nav-inner">
 
-        <nav className="nav-links">
+        <a href="/" className="logo-text">XENWEALTH</a>
+
+        <button 
+          className="nav-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </button>
+
+        <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/services">Services</a>
           <a href="/team">Our Team</a>
           <a href="/career">Career</a>
           <a href="/contact">Contact</a>
-        </nav>
+        </div>
 
       </div>
-    </header>
+    </nav>
   );
 }
 
+export default Navbar;
