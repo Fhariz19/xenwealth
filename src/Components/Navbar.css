@@ -1,6 +1,6 @@
 navbar {
   background: linear-gradient(90deg, #041c4a, #083b8a);
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 
 .nav-inner {
@@ -15,7 +15,7 @@ navbar {
 
 /* LOGO */
 .logo-text {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   letter-spacing: 4px;
   color: #FFD600;
@@ -26,13 +26,14 @@ navbar {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2.8rem;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.15rem;
 }
 
 /* HAMBURGER BUTTON */
