@@ -5,7 +5,6 @@ import {
   FaTiktok,
   FaLinkedinIn,
   FaEnvelope,
-  FaMapMarkerAlt
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -28,7 +27,7 @@ export default function Footer() {
 
             <a href="https://www.tiktok.com/@xenwealth" target="_blank" rel="noreferrer">
               <FaTiktok />
-             </a>
+            </a>
 
             <a href="https://www.linkedin.com/company/xenwealth-group/posts/?feedView=all" target="_blank" rel="noreferrer">
               <FaLinkedinIn />
@@ -57,15 +56,6 @@ export default function Footer() {
             <span>xenwealthmy@gmail.com</span>
           </div>
 
-          <div className="contact-item">
-            <FaMapMarkerAlt />
-            <span>
-              Xenwealth Group Enterprise<br />
-              Suite 10-31, Lobby 8, Level 10,<br />
-              Damansara Intan, 47000<br />
-              Petaling Jaya, Selangor, Malaysia
-            </span>
-          </div>
         </div>
 
       </div>
