@@ -5,6 +5,7 @@ import {
   FaTiktok,
   FaLinkedinIn,
   FaEnvelope,
+  FaMapMarkedAlt,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -56,6 +57,14 @@ export default function Footer() {
             <span>xenwealthmy@gmail.com</span>
           </div>
 
+          <div className="contact-item">
+            <FaMapMarkedAlt />
+            <span>
+              Suite 10-31, Level 10, Lobby 8,<br/> 
+              Block A, Damansara Intan, 47400,<br/>
+              Petaling Jaya, Selangor
+            </span>
+          </div>
         </div>
 
       </div>

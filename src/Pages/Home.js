@@ -108,7 +108,7 @@ export default function Home() {
             </thead>
             <tbody>
               <tr>
-                <td>Block A, Lobby 8, Level 10, Damansara Intan, Selangor</td>
+                <td>Suite 10-31, Lobby 8, Level 10, Block A, Damansara Intan, Selangor</td>
                 <td>Monday – Friday</td>
                 <td>9.00 a.m. – 6.00 p.m.</td>
               </tr>
