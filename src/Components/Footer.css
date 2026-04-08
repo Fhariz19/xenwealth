@@ -1,4 +1,4 @@
-/* Social list */
+
 .social-list {
   display: flex;
   flex-direction: column;
@@ -16,7 +16,6 @@
   transition: color 0.25s ease, transform 0.25s ease;
 }
 
-/* Remove purple visited links */
 .footer a,
 .footer a:visited {
   color: inherit;
@@ -24,7 +23,7 @@
 
 .social-list a svg {
   font-size: 18px;
-  color: #facc15; /* gold accent */
+  color: #facc15; 
 }
 
 .social-list a:hover {
